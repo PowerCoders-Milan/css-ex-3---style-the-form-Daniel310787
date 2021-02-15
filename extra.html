@@ -1,2 +1,156 @@
 <!--  Paste the HTML from the form exercise.
       Create your own style in -->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Form</title>
+      </head>
+      <body>
+          <section>
+              <div>
+                  <h1>Profile</h1>
+                  <h2>Please fill out all the information required</h2>
+              </div>
+              <div>
+                  <br>
+                  <hr>
+                  <form action="Personal-Data">
+                      <h3>Personal Data</h3>
+                      <fieldset>
+                          <label for="field1">Tittle:</label>
+                          <input placeholder="Dr.- Mr." type="text" name="title" id="field1" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field2">First Name:</label>
+                          <input placeholder="First Name" type="text" name="name" id="field2" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field3">Last Name:</label>
+                          <input placeholder="Last Name" type="text" name="name" id="field3" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label>Gender:</label>                    
+                          <label for="field4-1">Male</label>
+                          <input  type="radio" name="gender" id="field4-1" value="male">
+                          <label for="field4-2">Female</label>
+                          <input  type="radio" name="gender" id="field4-2" value="female">
+                          <label for="field4-3">Other</label>
+                          <input  type="radio" name="gender" id="field4-3" value="other">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label>Country:</label>                    
+                          <button><label for="field5-1">Italy</label>
+                          <input  type="radio" name="country" id="field5-1" value="italy"></button>
+                          <label for="field5-2">  United States</label>
+                          <input  type="radio" name="country" id="field5-2" value="united states">
+                          <label for="field5-3">  France</label>
+                          <input  type="radio" name="country" id="field5-3" value="france">          
+                      </fieldset>
+                      <br>
+                  </form>
+              </div>
+          </section>
+          <br>
+          <hr>
+          <section>
+              <div>
+                  <form action="Contact">
+                      <h3>Contact</h3>
+                      <br>
+                      <fieldset>
+                          <label for="field6">Phone Number:</label>
+                          <input placeholder="Your Phone Number" type="tel" name="phone" id="field6" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field7">Mobile Number:</label>
+                          <input placeholder="optional" type="tel" name="Mobile" id="field7" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field8">House Number:</label>
+                          <input placeholder="optional" type="tel" name="House" id="field8" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field9">Fax:</label>
+                          <input placeholder="optional" type="tel" name="Fax" id="field9" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field10">Email 1:</label>
+                          <input placeholder="Your Email" type="email" name="Email" id="field10" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field11">Email 2:</label>
+                          <input placeholder="optional" type="email" name="secEmail" id="field11">
+                      </fieldset>
+                      <br>
+                  </form>
+              </div>
+          </section>
+          <br>
+          <hr>
+          <section>
+              <div>
+                  <form action="Address">
+                      <h3>Address data</h3>
+                      <br>
+                      <fieldset>
+                          <label for="field12">Company:</label>
+                          <input placeholder="Your Company" type="text" name="company" id="field12" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field13">Secondary Company:</label>
+                          <input placeholder="Optional" type="text" name="seccompany" id="field13">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field14">Website:</label>
+                          <input placeholder="optional" type="text" name="website" id="field14">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field15">Address/House Number:</label>
+                          <input placeholder="street name" type="text" name="address" id="field15" required>
+                          <input placeholder="house number" type="text" name="housenumber" id="field15-1" required>
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field16">Secondary address:</label>
+                          <input placeholder="optional" type="text" name="secaddress" id="field16" >
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field17">P.O Box:</label>
+                          <input placeholder="optional" type="text" name="pobox" id="field17">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field18">ZipCode/City:</label>
+                          <input placeholder="zip code" type="text" name="zipcode" id="field18">
+                          <input placeholder="City" type="text" name="city" id="field18.1">
+                      </fieldset>
+                      <br>
+                      <fieldset>
+                          <label for="field19">State/Country:</label>
+                          <input placeholder="State" type="text" name="state" id="field19">
+                          <input placeholder="country" type="text" name="country" id="field19-1">
+                      </fieldset>
+                      <br>
+                  </form>
+              </div>
+          </section>
+          
+          <input type="submit" id="submit">
+      </body>
+      </html>

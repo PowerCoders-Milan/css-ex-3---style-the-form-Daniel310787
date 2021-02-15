@@ -1,1 +1,123 @@
-/* Use Selectors and attributes for the HTML design */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: white;
+    color: black;
+    display: grid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    justify-items: center;
+    weight: 100vw;
+}
+
+h1{
+    font-size: 3em;
+    color: black;
+    text-align: left;
+}
+
+h2{
+    font-size: 2.5  em;
+    text-align: left;
+}
+
+h3{
+    font-size: 2em;
+    text-align: left;
+    border-top: 2px solid black;
+    margin-bottom: 15px;
+}
+.container{
+    background: white;
+    position: relative;
+    text-align: left;
+    width: 650px;
+}
+
+input {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 1px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+    float: right;
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.id1 {
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+}
+
+
+
+.id1 label {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 2px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: .2s all ease-in-out;
+    width: 127px;
+}
+.id1 input[type="radio"] {
+    display: none;
+}
+
+.id1 input[type="radio"]:checked + label {
+    border-bottom: 5px solid red;
+}
+
+#hovers:hover{
+    color: red;
+}
+
+
+fieldset{
+    border: white;
+}
+
+#space1 {
+    width: 150px;
+}
+
+#space {
+    width: 250px;
+    border-left: 1px solid black;
+}
+
+#class{
+    font-size: 25px;
+}
+
+#field19{
+    width: 25px;
+}
+
+#submit{
+    padding: 15px 35px;
+    font-size: 35px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 50px;
+    border: none;
+}

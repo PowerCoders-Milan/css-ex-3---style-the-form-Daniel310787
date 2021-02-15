@@ -1,3 +1,174 @@
 <!--  Style this form accrding to the image.
       Extra points: Create your own style in
       yourstyle.html  -->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Form</title>
+          <link rel="stylesheet" href="style.css">
+      </head>
+        <body>
+            <div class="container">
+            <section>
+                <div class="">
+                    <h1>Profile</h1>
+                    <h2>Please fill out all the information required</h2>
+                </div>
+                <div class="">
+                    <br>
+                    
+                    <form action="Personal-Data">
+                        <h3>Personal Data</h3>
+                        <fieldset>
+                            <label for="field1" id="class">Tittle:</label>
+                            <input placeholder="Dr.- Mr." type="text" name="title" id="field1" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field2" id="class">First Name:</label>
+                            <input placeholder="First Name" type="text" name="name" id="field2" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field3" id="class">Last Name:</label>
+                            <input placeholder="Last Name" type="text" name="name" id="field3" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            
+                            <label id="class">Gender:</label>
+                            
+                            <div class="id1">                        
+                            
+                                <input  type="radio" name="gender" id="field4-1" value="male">
+                                <label for="field4-1" id="hovers">Male</label>
+                                <input  type="radio" name="gender" id="field4-2" value="female">
+                                <label for="field4-2" id="hovers">Female</label>
+                                <input  type="radio" name="gender" id="field4-3" value="other">
+                                <label for="field4-3" id="hovers">Other</label>
+                            
+                            </div>
+                        
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                        
+                            <label id="class">Country:</label>                    
+                            
+                            <div class="id1">
+
+                                <input  type="radio" name="country" id="field5-1" value="italy">
+                                <label for="field5-1" id="hovers">Italy</label> 
+                                <input  type="radio" name="country" id="field5-2" value="united states">
+                                <label for="field5-2" id="hovers">  United States</label> 
+                                <input  type="radio" name="country" id="field5-3" value="france"> 
+                                <label for="field5-3" id="hovers">  France</label>      
+                            
+                            </div>
+                        
+                        </fieldset>
+                        <br>
+                    </form>
+                </div>
+            </section>
+            <br>
+            
+            <section>
+                <div class="">
+                    <form action="Contact">
+                        <h3>Contact</h3>
+                        <br>
+                        <fieldset>
+                            <label id="class" for="field6">Phone Number:</label>
+                            <input placeholder="Your Phone Number" type="tel" name="phone" id="field6" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field7" id="class">Mobile Number:</label>
+                            <input placeholder="Optional" type="tel" name="Mobile" id="field7" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field8" id="class">House Number:</label>
+                            <input placeholder="Optional" type="tel" name="House" id="field8" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field9" id="class">Fax:</label>
+                            <input placeholder="Optional" type="tel" name="Fax" id="field9" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field10" id="class">Email 1:</label>
+                            <input placeholder="Your Email" type="email" name="Email" id="field10" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field11" id="class">Email 2:</label>
+                            <input placeholder="Optional" type="email" name="secEmail" id="field11">
+                        </fieldset>
+                        <br>
+                    </form>
+                </div>
+            </section>
+            <br>
+            
+            <section>
+                <div class="">
+                    <form action="Address">
+                        <h3>Address data</h3>
+                        <br>
+                        <fieldset>
+                            <label for="field12" id="class">Company:</label>
+                            <input placeholder="Your Company" type="text" name="company" id="field12" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field13" id="class">Secondary Company:</label>
+                            <input placeholder="Optional" type="text" name="seccompany" id="field13">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field14" id="class">Website:</label>
+                            <input placeholder="Optional" type="text" name="website" id="field14">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field15" id="class">Address/House Number:</label>
+                            <input id="space" placeholder="Street name" type="text" name="address" id="field15" required>
+                            <input id="space1" placeholder="House number" type="text" name="housenumber" id="field15-1" required>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field16" id="class">Secondary address:</label>
+                            <input placeholder="Optional" type="text" name="secaddress" id="field16" >
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field17" id="class">P.O Box:</label>
+                            <input placeholder="Optional" type="text" name="pobox" id="field17">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field18" id="class">ZipCode/City:</label>
+                            <input id="space" placeholder="Zip code" type="text" name="zipcode" id="field18">
+                            <input id="space1" placeholder="City" type="text" name="city" id="field18.1">
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <label for="field19" id="class">State/Country:</label>
+                            <input id="space" placeholder="State" type="text" name="state" id="field19">
+                            <input id="space1" placeholder="country" type="text" name="country" id="field19-1">
+                        </fieldset>
+                        <br>
+                    </form>
+                </div>
+            </section>
+            </div>
+            <div id="125"><input type="submit" id="submit"></div>
+        </body>
+
+      </html>
